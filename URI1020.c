@@ -8,7 +8,6 @@ int main(){
     years = age / 365;
     remainder = age % 365;
     months = remainder / 30;
-    remainder = months % 30;
     days = age - ((months * 30 + years *365));
 
     printf("%i ano(s)\n",years);
